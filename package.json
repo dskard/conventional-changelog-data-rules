@@ -1,0 +1,31 @@
+{
+  "name": "conventional-changelog-data-rules",
+  "version": "1.0.0",
+  "description": "rules from the conventional-changelog-data package, for use with semantic-release/commit-analyzer's releaseRules",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --cache --cache-location ./node_modules/.cache/ --ignore-path .gitignore",
+    "fix": "eslint . --fix --cache --cache-location ./node_modules/.cache/ --ignore-path .gitignore",
+    "pretest": "pnpm lint",
+    "test": "c8 jest",
+    "test-windows": "c8 jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dskard/conventional-changelog-data-rules.git"
+  },
+  "author": "derrick kearney, alyssa ibarra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dskard/conventional-changelog-data-rules/issues"
+  },
+  "homepage": "https://github.com/dskard/conventional-changelog-data-rules#readme",
+  "dependencies": {
+    "pnpm": "^8.11.0"
+  },
+  "devDependencies": {
+    "c8": "^8.0.1",
+    "eslint": "^8.55.0",
+    "jest": "^29.7.0"
+  }
+}
