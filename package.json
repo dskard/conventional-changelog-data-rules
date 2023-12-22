@@ -20,9 +20,6 @@
     "url": "https://github.com/dskard/conventional-changelog-data-rules/issues"
   },
   "homepage": "https://github.com/dskard/conventional-changelog-data-rules#readme",
-  "dependencies": {
-    "pnpm": "^8.11.0"
-  },
   "devDependencies": {
     "c8": "^8.0.1",
     "eslint": "^8.55.0",
